@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin One HTML clone</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main-content.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700;800&family=Roboto+Flex:wght@400;500&display=swap" rel="stylesheet">  
+
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="left-header">
+            <div><input type="text" placeholder="search everywhere..." style="outline: none;"></div>
+        </div>
+
+        <div class="right-header">
+            <div class = "Sample-menu">
+                <div class="Sample-menu-tab">
+                    <i id="bar-icon" class="fa-sharp fa-solid fa-bars fa-xs"></i>
+                    <span>Sample Menu</span>
+                    <i id="sample-menu-down-icon" class="fa-solid fa-angle-down fa-2xs"></i>
+                </div>
+                <div class = "Sample-menu-drop-down-container">
+                    <div class = "Sample-menu-drop-down">
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-user fa-xs" style = "color : rgb(55, 55, 55);" ></i>
+                                <span>My Profile</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-gear fa-xs" style = "color : rgb(55, 55, 55);"></i>
+                                <span>Setting</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope fa-xs" style = "color : rgb(55, 55, 55);"></i>
+                                <span>Messages</span>
+                            </a>
+                        </div>
+                        <hr class ="Break-line">
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right-from-bracket fa-xs" style = "color :rgb(55, 55, 55);"></i>
+                                <span>Log Out</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "Profile-name-and-logo">
+                <div id = "profile-logo"><span>JD</span></div>
+                <div><span>John Does</span></div>
+                <div style = "margin-left: 5px;"><i id="sample-menu-down-icon" class="fa-solid fa-angle-down fa-2xs"></i></div>
+            </div>
+
+            <div class = "about-icon">
+                <div><i class="fa-regular fa-circle-question fa-sm"></i></div>
+
+            </div>
+            <div class = "logout-icon">
+                <div><i class="fa-solid fa-arrow-right-from-bracket fa-xs"></i></div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="side-bar">
+        <div id="Admin-heading">
+            <p id="Admin-One">Admin One HTML</p>
+        </div>
+        <div class="General-div">
+            <p id="General">General</p>
+        </div>
+        <div id="dashboard">
+            <div><i class="fa-sharp fa-solid fa-desktop fa-sm"></i></div>
+            <div><a href="#">Dashboard</a></div>
+        </div>
+        <div class="example-div">
+            <p id="Example">Example</p>
+        </div>
+        <div id="Table">
+            <div><i class="fa-solid fa-table fa-sm"></i></div>
+            <div><a href="#">Tables</a></div>
+        </div>
+        <div id=Forms>
+            <div><i class="fa-solid fa-pen-to-square fa-sm"></i></div>
+            <div><a href="#">Forms</a></div>
+        </div>
+        <div id="Profile">
+            <div>
+                <div id="profile-icon"><i class="fa-solid fa-user fa-sm"></i></div>
+            </div>
+            <div><a href="#">Profile</a></div>
+        </div>
+        <div id="Submenus-div">
+            <div id="Submenus">
+                <div><i class="fa-sharp fa-solid fa-bars fa-sm"></i></div>
+                <div><a href="#">Submenus</a></div>
+            </div>
+            <div id="plus-icon"><i id="sign" class="fa-solid fa-plus fa-xs"></i></div>
+
+        </div>
+        <div class="sub-menu">
+            <div id="sub-item-menus">
+                <div class="sub-menu-1">Sub-itme One</div>
+                <div class="sub-menu-2">Sub-item Two</div>
+            </div>
+        </div>
+
+        <div class="About-section-div">
+            <p id="About-section">ABOUT</p>
+        </div>
+
+        <div id="GitHub">
+            <div><i class="fa-brands fa-github fa-sm"></i></div>
+            <div><a href="#">GitHub</a></div>
+        </div>
+
+        <div id="About">
+            <div><i class="fa-regular fa-circle-question fa-sm"></i></div>
+            <div><a href="#">About</a></div>
+        </div>
+        
+    </div>
+
+    <main>
+        <div class="main-content">
+
+          <div class="admin-dashborad-title-and-github-link">
+            <div class = "Admin-Dashboard">
+                <span style = "color: #737070; font-weight: 300;">Admin</span>
+                <span class = "Admin-Dashboard-slash"  style = "color: #737070;">/</span>
+                <span style = "font-weight:700; color : rgb(37, 36, 36);">Dashboard</span>
+            </div>
+            <div class = "GitHub-link">
+                <a href="#void">
+                    <i class="fa-brands fa-github fa-sm"></i>
+                    <span>GitHub</span>
+                </a>
+
+            </div>
+            
+          </div>
+  
+          <div class="Dashboard-title-only"><span>Dashboard</span></div>
+  
+          <div class="show-data-container">
+                <div class="show-data-client-slaes-performance">
+                <div class="show-data-clients">
+                    <div class = "show-data">
+                        <span class = "show-data-type">Clients</span>
+                        <span class = "show-data-number">512</span>
+                    </div>
+                    <div id = "user-group-icon"><i class="fa-solid fa-user-group" style = "color : #00c5a7;"></i></div>
+                </div>
+    
+                <div class="show-data-slaes">
+                    <div class = "show-data">
+                        <span class = "show-data-type">Sales</span>
+                        <span class = "show-data-number">7,770</span>
+                    </div>
+                    <div id = "sales-icon"><i class="fa-solid fa-cart-shopping" style = "color : #3e8ed0 !important;"></i></div>
+                </div>
+    
+                <div class="show-data-performance">
+                    <div class = "show-data">
+                        <span class = "show-data-type">Performance</span>
+                        <span class = "show-data-number">256%</span>
+                    </div>
+                    <div id = "performance-icon"><i class="fa-solid fa-chart-line" style = "color: #48c78e !important;"></i></div>
+                </div>
+                </div>
+    
+                <div class="show-graph-of-performance">
+                    <div class = "performance-refersh-and-its-icon">
+                        <div class = "performance-and-its-icon">
+                            <div><i class="fa-solid fa-chart-line" style = "color: black !important;"></i></div>
+                            <div><span>Performance</span></div>
+                        </div>
+                        <div><i class="fa-solid fa-rotate-right fa-xs" style="color : rgb(37, 36, 36);"></i></div>
+                    </div>
+                    
+                    <div class = "performance-image">
+                        <img src="image/performance-graph.png" alt="Performance image">
+
+                    </div>
+
+                
+                    
+
+                </div>
+    
+                <div class="show-clients-data-only">
+
+                    <header>
+                        <div class="Clients-and-its-icon">Clients-and-its-icon</div>
+                        <div id="clients-referesh-icon">refersh iocn</div>
+                    </header>
+        
+                    <div class="clients-data-header-title">
+                        <table>
+                            <th>
+                                <td>Name</td>
+                                <td>Company</td>
+                                <td>City</td>
+                                <td>Progress</td>
+                                <td>Created</td>
+                            </th>
+                            <tr class = "row-1">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class = "row-2"></tr>
+                            <tr class = "row-3"></tr>
+                            <tr class = "row-4"></tr>
+                            <tr class = "row-5"></tr>
+                            <tr class = "row-6"></tr>
+                            <tr class = "row-7"></tr>
+                            <tr class = "row-8"></tr>
+                            <tr class = "row-9"></tr>
+                            <tr class = "row-10"></tr>
+                        </table>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+   <script src = "main.js"></script>
+  </body>
+</html>

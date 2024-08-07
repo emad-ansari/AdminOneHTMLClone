@@ -1,0 +1,143 @@
+.side-bar{
+    color : black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width : 225px;
+    z-index: 70;
+    background-color: #2e323a;
+}
+
+
+i {
+    color: white;
+    /* color: #727c8f; */
+}
+
+.main-container {
+    display: flex;
+}
+
+#Admin-heading {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 14, 14);
+}
+
+
+#Admin-One {
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+}
+
+#General,
+#Example,
+#About-section {
+    font-size: 11px;
+    color: #727c8f;
+    margin-left: 10px;
+    margin-top: 13px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+}
+
+.General-div,
+.example-div,
+.About-section-div {
+    margin-bottom: 17px;
+}
+
+#dashboard,
+#Table,
+#Forms,
+#Profile,
+#GitHub,
+#About {
+    display: flex;
+    padding: 10px;
+    column-gap: 22px;
+    background-color: black;
+    border-bottom: 1px solid gray;
+}
+
+#dashboard a,
+#Table a,
+#Forms a,
+#Profile a,
+#Submenus a,
+#GitHub a,
+#About a {
+    text-decoration: none;
+    color: #727c8f;
+    font-size: 15px;
+}
+
+#Submenus-div {
+    background-color: black;
+    display: flex;
+    column-gap: 70px;
+
+}
+
+#Submenus {
+    display: flex;
+    padding: 10px;
+    column-gap: 22px;
+    background-color: black;
+    color: #727c8f;
+    font-size: 15px;
+}
+
+#Submenus:hover {
+    color: white;
+}
+
+#plus-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#dashboard:hover a,
+#Table:hover a,
+#Forms:hover a,
+#Profile:hover a,
+#Submenus:hover a,
+#GitHub:hover a,
+#About:hover a {
+    color: white;
+}
+
+.sub-menu-1,
+.sub-menu-2 {
+
+    color: #727c8f;
+    font-size: 14.5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#sub-item-menus {
+    display: grid;
+    grid-template-rows: 2;
+    row-gap: 18px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    border-right: 1px solid gray;
+}
+
+.sub-menu {
+    display: none;
+    transition: opacity 2s ease-in-out;
+}
+.sub-menu.active {
+    display: block;
+}

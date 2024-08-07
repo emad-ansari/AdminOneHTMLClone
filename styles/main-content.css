@@ -1,0 +1,232 @@
+
+.main-content {
+    /* background-color: aquamarine; */
+    position : absolute;
+    top: 52px;
+    left:225px;
+    right : 0;
+  
+}
+
+
+.admin-dashborad-title-and-github-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color : white;
+    height : 85px;
+    border-bottom: 1px solid #ececec;
+}
+
+.Admin-Dashboard {
+    margin-left: 25px;
+
+}
+.Admin-Dashboard span{
+    font-size: 23px;
+}
+.Admin-Dashboard-slash {
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+
+
+.GitHub-link {
+    margin-right: 30px;
+    background-color: #12d2b5;
+    padding-left: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 90px;
+    border-radius: 4px;
+   
+
+}
+.GitHub-link a{
+    text-decoration: none;
+}
+
+.GitHub-link a i {
+    margin-right: 5px;
+}
+
+.GitHub-link a span{
+    color: white;
+}
+
+
+.Dashboard-title-only {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color : rgb(37, 36, 36);
+    height : 80px;
+    border-bottom: 1px solid #ececec;
+}
+
+.Dashboard-title-only span {
+    margin-left: 25px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.show-data-container {
+    margin: 25px;
+}
+
+.show-data-client-slaes-performance {
+    color : white;
+    display : flex;
+    column-gap: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+
+.show-data-clients,
+.show-data-slaes,
+.show-data-performance {
+    background-color: white;
+    height : 115px;
+    display : flex;
+    flex: 1;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow:  0 6px 10px rgb(184, 184, 184);
+    border: 1px solid #ececec;
+    
+
+    
+}
+.show-data {
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#user-group-icon,
+#sales-icon,
+#performance-icon {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+
+.show-data-type {
+    font-size: 19px;
+    color: #737070
+}
+
+.show-data-number {
+    font-size : 30px;
+    font-weight: 600;
+    color : rgb(37, 36, 36);
+}
+
+.show-graph-of-performance {
+    background-color: white;
+    margin-bottom: 25px;
+    border-top-right-radius : 5px;
+    border-top-left-radius : 5px;
+    border-bottom-right-radius : 5px;
+    border-bottom-left-radius : 5px;
+    border: 0.5px solid #ececec;
+}
+
+.performance-refersh-and-its-icon {
+    display : flex;
+    flex: 1;
+    align-items : center;
+    justify-content: space-between;
+    height: 42px;
+}
+.performance-and-its-icon {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    margin-left: 20px;
+    height: 42px;
+    
+}
+
+.performance-and-its-icon span {
+    margin-left: 8px;
+    font-weight: bold;
+    color : rgb(37, 36, 36);
+   
+}
+
+
+.fa-rotate-right{
+    margin-right: 15px;
+}
+
+
+
+.performance-image  img {
+    width : 100%;
+}
+
+
+
+.show-clients-data-only{
+    background-color: blueviolet;
+ 
+}
+
+.show-clients-data-only header {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height : 43px;
+    background-color: white;
+}
+
+.Clients-and-its-icon {
+    background-color: black;
+    color : white;
+
+}
+
+#clients-referesh-icon {
+    background-color: black;
+    color : white;
+}
+
+.clients-data-header-title {
+    background-color:brown;
+    color : white;
+    display : flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-between; 
+    height : 43px;
+    
+}
+
+
+.title-left-section {
+    background-color: black;
+    color : white;
+    display : flex;
+    flex : 1;
+    flex-direction: row;
+
+}
+.title-right-section {
+    background-color: white;
+    color : black;
+    display : flex;
+    flex: 1;
+    flex-direction: row;
+
+} 
